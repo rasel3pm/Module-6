@@ -1,0 +1,91 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .branding_item {
+        display: flex;
+        flex-direction: column;
+    }
+    .branding_item img {
+        margin-top: 30px;
+    }
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service_box {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .nick_parry {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nick_contants {
+        text-align: center;
+        width: 162%;
+    }
+    .delivery_picture {
+        width: 100%;
+        flex-direction: column;
+    }
+    .delivery {
+        margin: 0px 0px;
+        text-align: center;
+    }
+    .delivery_picture img {
+        margin-top: 10px;
+        max-width: 100%;
+    }
+    .delivery_btm_des p {
+        padding: 0px 0px;
+    }
+    .footer_contant {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 30px;
+    }
+    .contact h6,
+    ul,
+    .form {
+        margin-top: 30px;
+        list-style: none;
+    }
+    .form {
+        padding: 0px 50px;
+    }
+    form textarea {
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .sub {
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
